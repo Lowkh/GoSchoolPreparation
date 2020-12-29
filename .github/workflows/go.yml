@@ -22,4 +22,4 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: Lowkh/GoSchoolTestScripts
-          token: ${{ secrets.GOSCHOOL_TOKEN }}
+          token: ${{secrets.GOSCHOOL_TOKEN}}
