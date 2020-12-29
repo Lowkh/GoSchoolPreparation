@@ -19,7 +19,7 @@ jobs:
       - name: Go Version Check
         run: go version
       - name: Download Go Test Script
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           repository: Lowkh/GoSchoolTestScripts
           token: ${{secrets.GOSCHOOL_TOKEN}}
