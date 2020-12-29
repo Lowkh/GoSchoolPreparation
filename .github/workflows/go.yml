@@ -23,3 +23,4 @@ jobs:
         with:
           repository: Lowkh/GoSchoolTestScripts
           token: ${{secrets.GOSCHOOL_TOKEN}}
+          path: https://github.com/Lowkh/GoSchoolPreparation.git
