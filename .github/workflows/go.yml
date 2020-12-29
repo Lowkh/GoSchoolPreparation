@@ -22,5 +22,4 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Lowkh/GoSchoolTestScripts
-          token: ${{secrets.GOSCHOOL_TOKEN}}
-          path: https://github.com/Lowkh/GoSchoolPreparation.git
+          token: ${{secrets.GITHUB_TOKEN}}
